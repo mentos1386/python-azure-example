@@ -1,0 +1,110 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "azure-cli@latest": {
+      "last_modified": "2024-02-26T19:46:43Z",
+      "resolved": "github:NixOS/nixpkgs/548a86b335d7ecd8b57ec617781f5e652ab0c38e#azure-cli",
+      "source": "devbox-search",
+      "version": "2.56.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/dnbzp85nka7wdd3gdk4a7s0vgcv7f3ix-python3.11-azure-cli-2.56.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/m7d0fwpw7zhsnhbr9b67qf780yrficgj-python3.11-azure-cli-2.56.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/l5kklfbbk9n9i3kj7vzqg4pmmcxy8z77-python3.11-azure-cli-2.56.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/f96pm8sbihjd7cy98f5xyqn54gjfb1ys-python3.11-azure-cli-2.56.0"
+        }
+      }
+    },
+    "azure-functions-core-tools@latest": {
+      "last_modified": "2024-02-26T19:46:43Z",
+      "resolved": "github:NixOS/nixpkgs/548a86b335d7ecd8b57ec617781f5e652ab0c38e#azure-functions-core-tools",
+      "source": "devbox-search",
+      "version": "4.0.5455",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/90khpfynpfcxyiflvxj1nw605cc5ndsd-azure-functions-core-tools-4.0.5455"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/7n08wfcxk1by25787pw13gi8yk9ql3fb-azure-functions-core-tools-4.0.5455"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/yb2av5h85h3h76rq0yy9l7wmyipwcyk9-azure-functions-core-tools-4.0.5455"
+        }
+      }
+    },
+    "just@latest": {
+      "last_modified": "2024-02-26T19:46:43Z",
+      "resolved": "github:NixOS/nixpkgs/548a86b335d7ecd8b57ec617781f5e652ab0c38e#just",
+      "source": "devbox-search",
+      "version": "1.24.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/4y0018ypsv9psa73sz6na2806ndpx5sf-just-1.24.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/gafx9wd70rzrk16jwm1fdmvs0y15knzk-just-1.24.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/imhg52m87050xjs76mkdlql422n28kvg-just-1.24.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/92k9inba4i5bs7cp0kh99y1f93v407v0-just-1.24.0"
+        }
+      }
+    },
+    "python312Packages.pip@latest": {
+      "last_modified": "2024-02-26T19:46:43Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/548a86b335d7ecd8b57ec617781f5e652ab0c38e#python312Packages.pip",
+      "source": "devbox-search",
+      "version": "23.3.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/mbjlr4zvqp2sn8xikz10cdsxhx4sj4z6-python3.12-pip-23.3.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/2c4w8x04jczy8jjrkin25920100yapyn-python3.12-pip-23.3.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/fksz4hvb5f5snyy3n01fmwlqjb4dayjc-python3.12-pip-23.3.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/xc1wzb3gvj5a4djwimldwgvlhv31qxs3-python3.12-pip-23.3.1"
+        }
+      }
+    },
+    "python@3.12": {
+      "last_modified": "2024-02-26T19:46:43Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/548a86b335d7ecd8b57ec617781f5e652ab0c38e#python312",
+      "source": "devbox-search",
+      "version": "3.12.2",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/15k5wj7q3psakinjs1czl6fdfghi5k6d-python3-3.12.2"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/ks2j3hf91drxzbizlaiyxhbzcjbp015v-python3-3.12.2"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/x69mapgywbfgg8p4fdqy76lg0h9gf2kj-python3-3.12.2"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/n3jf1lkdfakxskzsm4nlhss8mdgmcqhc-python3-3.12.2"
+        }
+      }
+    },
+    "terraform@latest": {
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#terraform",
+      "source": "devbox-search",
+      "version": "1.7.4"
+    }
+  }
+}
