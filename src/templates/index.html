@@ -1,0 +1,10 @@
+<!doctype html>
+<title>Hello from Flask</title>
+
+<h1>Here are some users</h1>
+
+<ul>
+  {% for (id, name) in users %}
+  <li><strong>{{ id }}:</strong> {{ name}}</li>
+  {% endfor %}
+</ul>

@@ -38,6 +38,26 @@
         }
       }
     },
+    "black@latest": {
+      "last_modified": "2024-02-26T19:46:43Z",
+      "resolved": "github:NixOS/nixpkgs/548a86b335d7ecd8b57ec617781f5e652ab0c38e#black",
+      "source": "devbox-search",
+      "version": "23.11.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/4aks55v8kdck409q1ga0qkdnrphabv53-python3.11-black-23.11.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/y7kcifhk0v58pfhqdmpdbpd0yxwv860z-python3.11-black-23.11.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/41jmbap8q6gsjs8g59xwr6f222pdzpp8-python3.11-black-23.11.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/g8k9vjxgsy8d3dizjw1jlcmj2iphy512-python3.11-black-23.11.0"
+        }
+      }
+    },
     "just@latest": {
       "last_modified": "2024-02-26T19:46:43Z",
       "resolved": "github:NixOS/nixpkgs/548a86b335d7ecd8b57ec617781f5e652ab0c38e#just",
@@ -55,6 +75,27 @@
         },
         "x86_64-linux": {
           "store_path": "/nix/store/92k9inba4i5bs7cp0kh99y1f93v407v0-just-1.24.0"
+        }
+      }
+    },
+    "postgresql@latest": {
+      "last_modified": "2024-02-26T19:46:43Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/548a86b335d7ecd8b57ec617781f5e652ab0c38e#postgresql",
+      "source": "devbox-search",
+      "version": "15.6",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/j5m8ndrxpmk1444lzdk6p33vfzwrg6l7-postgresql-15.6"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/3gbmk22frf8l07k3mhb16d43dy7bfd2s-postgresql-15.6"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/3a6lihh8nk9fvhf87vwkszfknjx27yfb-postgresql-15.6"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/84xh621k32sc7ykqx37vcqdpjz9zxmdf-postgresql-15.6"
         }
       }
     },

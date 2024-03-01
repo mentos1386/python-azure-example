@@ -5,7 +5,9 @@
     "python312Packages.pip@latest",
     "terraform@latest",
     "azure-cli@latest",
-    "azure-functions-core-tools@latest"
+    "azure-functions-core-tools@latest",
+    "black@latest",
+    "postgresql@latest"
   ],
   "env": {
     "VENV_DIR": ".venv"

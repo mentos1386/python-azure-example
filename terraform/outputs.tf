@@ -1,3 +1,3 @@
-output "database_fqdn" {
-  value = azurerm_postgresql_server.main.fqdn
+output "container_registry_name" {
+  value = azurerm_container_registry.main.name
 }

@@ -16,8 +16,12 @@ cp example.env .env
 just run
 
 # Provision infrastructure
-just terraform apply
+just deploy
 
-# Deploy new code
+## RELEASE PROCESS
+# Release new code
+just release
+# At this point, you have to modify .env to point to new image
+# And then we can deploy the new image.
 just deploy
 ```
