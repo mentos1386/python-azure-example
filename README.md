@@ -13,6 +13,7 @@ Just an example of a way to deploy Python app to Azure using Terraform.
 cp example.env .env
 
 # Start local dev
+just dependencies
 just run
 
 # Provision infrastructure

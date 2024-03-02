@@ -12,10 +12,6 @@ run:
   devbox services start postgresql
   python src/app.py
 
-run-docker:
-  docker build -t local/${APP_NAME}:${GIT_SHA} .
-  docker run -it --rm -p 8080:8080 local/${APP_NAME}:${GIT_SHA}
-
 dependencies:
   pip install -r src/requirements.txt
 
